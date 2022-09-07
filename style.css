@@ -1,0 +1,98 @@
+* { 
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c2c2c;
+}
+
+.secao-conversor {
+    display: grid;
+    justify-content: center;
+    margin: 5% auto;
+}
+
+header {
+    background-color: #9657a5;
+    width: 375px;
+    height: 66px;
+    border-radius: 10px 10px 0 0;
+}
+
+#caixa-principal {
+    width: 375px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.paragrafos-from {
+    color: #777777;
+    margin-bottom: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.select {
+    width: 327px;
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botao-converte {
+    width: 327px;
+    height: 48px;
+    background: #dbc61f;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: #f4f4f4;
+    margin-bottom: 23px;
+    outline: none;
+}
+
+#botao-converte:active {
+    opacity: 0.7;
+}
+
+#caixa-interna {
+    border: 1px solid #9657a5;
+    border-radius: 4px;
+    padding: 12px 0;
+}
+
+.caixa-menor {
+    text-align: center;
+}
+
+#seta-paises {
+    display: block;
+    margin: 15px auto;
+}
+
+.preço-formatado {
+    font-weight: bold;
+    font-size: 20px;
+}
